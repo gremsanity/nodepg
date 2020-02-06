@@ -1,0 +1,17 @@
+{
+  "name": "nodepg",
+  "version": "1.0.0",
+  "description": "On my understanding, we should create and env file so that you will not manually input your DB_USER,PASSWORD etc. you just call it. env files allows us to put our environment variables inside a file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-nodepg": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "pg": "^7.18.1"
+  }
+}
